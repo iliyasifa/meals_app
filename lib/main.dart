@@ -28,8 +28,14 @@ class MyApp extends StatelessWidget {
                 color: Color.fromRGBO(20, 51, 51, 1),
               ),
               titleSmall: const TextStyle(
-                fontSize: 24,
+                fontSize: 20,
                 fontFamily: 'RobotoCondensed',
+                fontWeight: FontWeight.bold,
+              ),
+              titleMedium: const TextStyle(
+                fontSize: 20,
+                fontFamily: 'Raleway',
+                color: Colors.white,
               ),
             ),
       ),
