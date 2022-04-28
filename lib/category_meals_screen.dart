@@ -22,8 +22,8 @@ class CategoryMealsScreen extends StatelessWidget {
       ),
       body: Container(
         padding: const EdgeInsets.all(15),
-        child: const Center(
-          child: Text('The Recipes of the Category'),
+        child: Center(
+          child: Text('$categoryId The Recipes of the Category'),
         ),
       ),
     );
