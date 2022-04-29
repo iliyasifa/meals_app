@@ -11,8 +11,8 @@ class MealDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(mealId),
       ),
-      body: Center(
-        child: Text('The meal - $mealId!'),
+      body: Column(
+        children: [],
       ),
     );
   }
