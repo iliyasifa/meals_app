@@ -40,11 +40,11 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
     super.didChangeDependencies();
   }
 
-  void _removalMeal(String mealId) {
-    setState(() {
-      displayedMeals!.removeWhere((meal) => meal.id == mealId);
-    });
-  }
+  // void _removalMeal(String mealId) {
+  //   setState(() {
+  //     displayedMeals!.removeWhere((meal) => meal.id == mealId);
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
