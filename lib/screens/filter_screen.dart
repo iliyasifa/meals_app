@@ -34,6 +34,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
   Widget _buildSwitchListTile(String title, String description,
       bool currentValue, Function(bool) updateValue) {
     return SwitchListTile(
+      activeColor: Theme.of(context).colorScheme.secondary,
       title: Text(title),
       value: currentValue,
       subtitle: Text(description),
