@@ -33,7 +33,9 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
       categoryTitle = routeArgs['title'];
       final categoryId = routeArgs['id'];
       displayedMeals = widget.availableMeals
-          .where((meal) => meal.categories.contains(categoryId))
+          .where(
+            (meal) => meal.categories.contains(categoryId),
+          )
           .toList();
       _loadedInitData = true;
     }
